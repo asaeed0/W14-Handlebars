@@ -20,7 +20,6 @@ const routes = require("./controllers/routes.js");
 const app = express();
 
 //  Port selection
-console.log(process.env.PORT);
 app.set("port", process.env.PORT || 3000);
 
 //  Body Parser setup
